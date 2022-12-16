@@ -82,4 +82,4 @@ def check_task(task_id: str) -> str:
 def health_check() -> str:
         return jsonify("OK")
 if __name__ == '__main__':
-    uvicorn.run('App:app', host="0.0.0.0", port=8081, reload=True)
+    uvicorn.run('main:app', host="0.0.0.0", port=8081, reload=True)
