@@ -4,7 +4,7 @@ import random
 from flask import Flask, flash, request, redirect, url_for, send_from_directory, jsonify, render_template
 from app.worker import celery
 from werkzeug.utils import secure_filename
-
+import uvicorn
 UPLOAD_FOLDER = '/app/temp'
 
 dev_mode = True
