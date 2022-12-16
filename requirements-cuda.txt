@@ -43,7 +43,7 @@ sortedcontainers==2.3.0
 tblib==1.7.0
 tifffile==2021.4.8
 toolz==0.11.1
-torch==1.8.1+cu111
+torch
 tornado==6.1
 tqdm==4.61.0
 traitlets==5.0.5
