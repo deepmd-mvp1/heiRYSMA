@@ -81,3 +81,5 @@ def check_task(task_id: str) -> str:
 @app.route('/health_check')
 def health_check() -> str:
         return jsonify("OK")
+if __name__ == '__main__':
+    uvicorn.run('App:app', host="0.0.0.0", port=8081, reload=True)
